@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    background: #28b3ee url(back.jpg) repeat-x;
+    text-align: justify;
+    font: 14px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: #626262;
+}
+
+#left25{
+    margin-left:25px;
+}
+
+#logo {
+    text-align:center;
+    padding-top: 1px;
+}
+
+#logo h1{
+    padding: 10px 0px 0px 30px;
+    color: #ffffff;
+    font-size:36pt;
+    font-weight:bold;
+}
+
+#content{
+    background: #ffffff;
+    margin: 0px 100px 0px 100px;
+    padding: 20px 30px 20px 30px;
+    border: #d1d1d1 7px solid;
+}
+
+img {
+    border: 1px #1fb20f;
+}
+
+a {
+    color: #527594;
+}
+
+a:visited {
+    color: #E76F00;
+}
+
+a:hover {
+    color: #E76F00;
+}
+
+.situations{
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+}
+
+.background{
+    background-image: url('karel.png');
+    background-repeat: no-repeat;
+}
+
+.menu {
+    text-align: right;
+    position: relative;
+    top: -10px;
+    padding-right: 120px;
+}
+
+.menu a{
+    color: #ffffff;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.menu-items {
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.footer a{
+    color: #164d6f;
+}
+
+.title {
+    font-weight: bold;
+    color: #4faa18;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #E76F00;
+    font-size: 1.2em;
+}
+
+.objective {
+    font-weight: bold;
+}
+
+.step {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.desc {
+    font-weight: normal;
+    border: dashed 1px #4faa18;
+    padding: 5px;
+    background: #bff69d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.task {
+    font-weight: normal;
+
+    margin: 5px 0px 5px 0px;
+}
+
+.comment {
+    font-weight: normal;
+    border: dashed 1px #747C9F;
+    padding: 5px;
+    background: #D4DCFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.remove-alert {
+    font-weight: bold;
+    color: #E76F00;
+    font-size: 1.2em;
+}
+
+.additional-tasks, .additional-links, .content, .objectives, .about {
+    font-weight: bold;
+    color: #E76F00;
+    font-size: 1.3em;
+}
+
+.additional-task {
+    font-weight: normal;
+}
+
+.source {
+    border: dashed 1px #777777;
+    background: #F7F7F7;
+}
+
+.image {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lecturer-block {
+    background-color: #FFFF80;
+    border: solid 1px #777777;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lecturer-inline {
+    background-color: #FFFF80;
+}
+
+.svnid{
+    text-align: right;
+    font-size: 10pt;
+    font-style: italic;
+}

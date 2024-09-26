@@ -1,0 +1,188 @@
+<!Doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Karel Language Reference</title>
+    <meta http-equiv="Content-Language" content="sk">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="background">
+    <div class="header">
+        <div id="logo">
+            <h1>Karel the Robot Library</h1>
+        </div>
+        <div class="menu">
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="title">Karel Language Reference</div>
+
+        <div class="subtitle">Primitives</div>
+
+        <ul>
+            <li>
+                <tt><b>void step()</b></tt> - Move <i>Karel</i> one intersection
+                forward.
+            </li>
+
+            <li>
+                <tt><b>void turn_left()</b></tt> - Pivots <i>Karel</i> <i>90</i>
+                degrees left.
+            </li>
+
+            <li>
+                <tt><b>void pick_beeper()</b></tt> - Take a beeper from the
+                current intersection and put it in the beeper bag.
+            </li>
+
+            <li>
+                <tt><b>void put_beeper()</b></tt> - Take a beeper from the
+                beeper bag and put it at the current intersection.
+            </li>
+
+            <li>
+                <tt><b>void turn_on(char* path)</b></tt> - Turn <i>Karel</i> on.
+            </li>
+
+            <li>
+                <tt><b>void turn_off()</b></tt> - Turn <i>Karel</i> off.
+            </li>
+        </ul>
+
+        <div class="subtitle">Sensors</div>
+
+        <ul>
+            <li>
+                <tt><b>bool front_is_clear()</b></tt> - <tt>true</tt> if there
+                is no wall directly in front of <i>Karel</i>, <tt>false</tt> if
+                there is.
+            </li>
+
+            <li>
+                <tt><b>bool beepers_present()</b></tt> - <tt>true</tt> if <i>Karel</i>
+                is standing at an intersection that has a beeper, <tt>false</tt>
+                otherwise.
+            </li>
+
+            <li>
+                <tt><b>bool facing_north()</b></tt> - <tt>true</tt> if
+                <i>Karel</i> is facing north, <tt>false</tt> otherwise.
+            </li>
+
+
+            <li>
+                <tt><b>bool beepers_in_bag()</b></tt> - <tt>true</tt> if there
+                is at least one beeper in <i>Karel</i>'s beeper bag,
+                <tt>false</tt> if the beeper bag is empty.
+            </li>
+        </ul>
+
+        <div class="subtitle">Misc</div>
+
+        <ul>
+            <li>
+                <tt><b>void set_step_delay(int)</b></tt> - Sets delay of one
+                <i>Karel</i>'s step in miliseconds.
+            </li>
+        </ul>
+
+        <div class="title">Super Karel Language Reference</div>
+        <p>
+            Super Karel is an extension to the basic Karel the Robot library.
+            Super Karel is "equipped" with additional sensors.
+        </p>
+
+        <div class="subtitle">Sensors</div>
+
+        <ul>
+            <li>
+                <tt><b>bool front_is_blocked()</b></tt> - <tt>true</tt> if there
+                is a wall directly in front of <i>Karel</i>, <tt>false</tt>
+                otherwise.
+            </li>
+
+            <li>
+                <tt><b>bool left_is_clear()</b></tt> - <tt>true</tt> if there is
+                no wall immediately to <i>Karel</i>'s left, <tt>false</tt> if
+                there is.
+            </li>
+
+            <li>
+                <tt><b>bool left_is_blocked()</b></tt> - <tt>true</tt> if there
+                is a wall immediately to <i>Karel</i>'s left, <tt>false</tt>
+                otherwise.
+            </li>
+
+            <li>
+                <tt><b>bool right_is_clear()</b></tt> - <tt>true</tt> if there
+                is no wall immediately to <i>Karel</i>'s right, <tt>false</tt>
+                if there is.
+            </li>
+
+            <li>
+                <tt><b>bool right_is_blocked()</b></tt> - <tt>true</tt> if there
+                is a wall immediately to <i>Karel</i>'s right, <tt>false</tt>
+                otherwise.
+            </li>
+
+            <li>
+                <tt><b>bool no_beepers_present()</b></tt> - <tt>true</tt> if
+                there is not beeper at the current intersection, <tt>false</tt>
+                if there is a beeper at the current intersection.
+            </li>
+
+            <li>
+                <tt><b>bool not_facing_north()</b></tt> - <tt>true</tt> if <i>Karel</i>
+                is not facing north, <tt>false</tt> if he is facing north.
+            </li>
+
+            <li>
+                <tt><b>bool facing_south()</b></tt> - <tt>true</tt> if
+                <i>Karel</i> is facing south, <tt>false</tt> otherwise.
+            </li>
+
+            <li>
+                <tt><b>bool not_facing_south()</b></tt> - <tt>true</tt> if <i>Karel</i>
+                is not facing south, <tt>false</tt> if he is facing south.
+            </li>
+
+            <li>
+                <tt><b>bool facing_east()</b></tt> - <tt>true</tt> if
+                <i>Karel</i> is facing east, <tt>false</tt> otherwise.
+            </li>
+
+            <li>
+                <tt><b>bool not_facing_east()</b></tt> - <tt>true</tt> if <i>Karel</i>
+                is not facing east, <tt>false</tt> if he is facing east.
+            </li>
+
+            <li>
+                <tt><b>bool facing_west()</b></tt> - <tt>true</tt> if
+                <i>Karel</i> is facing west, <tt>false</tt> otherwise.
+            </li>
+
+            <li>
+                <tt><b>bool not_facing_west()</b></tt> - <tt>true</tt> if <i>Karel</i>
+                is not facing west, <tt>false</tt> if he is facing west.
+            </li>
+
+            <li>
+                <tt><b>bool no_beepers_in_bag()</b></tt> - <tt>true</tt> if <i>Karel</i>'s
+                beeper bag is empty, <tt>false</tt> if there is at least one
+                beeper in the beeper bag.
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="footer">
+        Created by: <a href="http://www.cnl.sk/~mirek">mirek</a>, 2010, 2019
+        <a href="https://git.kpi.fei.tuke.sk/kpi/karel-the-robot">Karel the
+            robot library homepage</a>
+    </div>
+</div>
+
+</body>
+</html>

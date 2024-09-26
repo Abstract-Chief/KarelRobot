@@ -1,0 +1,142 @@
+# Slovak translations for PACKAGE package.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# mirek <mirek@cnl.sk>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-17 20:00+0200\n"
+"PO-Revision-Date: 2019-06-17 20:03+0200\n"
+"Last-Translator: mirek <mirek@cnl.sk>\n"
+"Language-Team: Slovak\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: karel.c:192
+msgid "Can't move this way"
+msgstr "Tymto smerom sa neda ist"
+
+#: internals.c:203
+msgid "EAST"
+msgstr "VÝCHOD"
+
+#: internals.c:244 internals.c:250
+#, c-format
+msgid "Error Shutoff! (%s)"
+msgstr ""
+
+#: karel.c:368
+#, c-format
+msgid "Error: Line %d: Beeper position is outside the world!\n"
+msgstr ""
+
+#: karel.c:303 karel.c:361
+#, c-format
+msgid "Error: Line %d: Incorrect format.\n"
+msgstr ""
+
+#: karel.c:310
+#, c-format
+msgid "Error: Line %d: Wall position is outside the world!\n"
+msgstr ""
+
+#: karel.c:250
+#, c-format
+msgid "Error: The world informations are not in correct format!\n"
+msgstr ""
+
+#: karel.c:272
+#, c-format
+msgid "Error: The world's height is outside the range [1, %d]!\n"
+msgstr ""
+
+#: karel.c:265
+#, c-format
+msgid "Error: The world's width is outside the range [1, %d]!\n"
+msgstr ""
+
+#: karel.c:283
+#, c-format
+msgid "Error: Uknown Karel's direction\n"
+msgstr ""
+
+#: karel.c:331
+#, c-format
+msgid "Error: Uknown wall orientation '%c' on line %d in world file.\n"
+msgstr ""
+
+#: karel.c:377
+#, c-format
+msgid "Error: Unknown block character %c on line %d in world file.\n"
+msgstr ""
+
+#: karel.c:243
+#, c-format
+msgid "Error: World file '%s' not found.\n"
+msgstr ""
+
+#: karel.c:320
+#, c-format
+msgid "Error: Wrong position.\n"
+msgstr ""
+
+#: karel.c:414
+msgid "Karel has no beeper to put at the corner"
+msgstr ""
+
+#: karel.c:23
+msgid "Karel is not turned On"
+msgstr "Karel nie je zapnuty"
+
+#: karel.c:189
+msgid "STEP"
+msgstr "KROK"
+
+#: internals.c:200
+msgid "NORTH"
+msgstr "SEVER"
+
+#: karel.c:426
+msgid "PICK BEEPER"
+msgstr "VEZMI ZNACKU"
+
+#: karel.c:411
+msgid "PUT BEEPER"
+msgstr "POLOZ ZNACKU"
+
+#: internals.c:286
+msgid "Press any key to quit..."
+msgstr "Program ukoncite stlacenim lubovolnej klavesy..."
+
+#: internals.c:201
+msgid "SOUTH"
+msgstr "JUH"
+
+#: karel.c:204
+msgid "TURN LEFT"
+msgstr "VLAVO VBOK"
+
+#: karel.c:212
+msgid "TURN OFF"
+msgstr "VYPNUT"
+
+#: karel.c:396
+msgid "TURN ON"
+msgstr "ZAPNUT"
+
+#: karel.c:429
+msgid "There is no beeper at the corner"
+msgstr ""
+
+#: internals.c:204
+msgid "UNKNOWN"
+msgstr ""
+
+#: internals.c:202
+msgid "WEST"
+msgstr "ZAPAD"
